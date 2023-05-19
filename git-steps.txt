@@ -28,3 +28,11 @@ git push -u origin main
 
 git rm -r --cached .
 git rm -r code/Ch-1/__pycache__
+
+# change remote url
+
+git remote -v
+git remote set-url origin https://github.com/Kamakshaiah/PfDSaA.git
+git remote -v
+git push -f
+
